@@ -1,0 +1,67 @@
+
+.admin-attendance-page {
+  padding: 32px;
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-attendance-page h1 {
+  margin-bottom: 20px;
+}
+
+.attendance-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.attendance-table th {
+  background: #f3f4f6;
+  font-weight: bold;
+}
+
+.attendance-table tr:hover {
+  background: #f9fafb;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.present {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+.status.half_day {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.status.absent {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+
+.status.leave {
+  background: #bfdbfe;
+  color: #1e40af;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: bold;
+}

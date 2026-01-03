@@ -1,0 +1,78 @@
+.admin-payroll-page {
+  padding: 32px;
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-payroll-page h1 {
+  margin-bottom: 20px;
+}
+
+.payroll-form {
+  max-width: 420px;
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 32px;
+}
+
+.payroll-form h2 {
+  margin-bottom: 16px;
+}
+
+.payroll-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.payroll-form input,
+.payroll-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.payroll-form button {
+  width: 100%;
+  padding: 10px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table-title {
+  margin-bottom: 12px;
+}
+
+.payroll-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.payroll-table th,
+.payroll-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.payroll-table th {
+  background: #f3f4f6;
+  font-weight: bold;
+}
+
+.payroll-table tr:hover {
+  background: #f9fafb;
+}
