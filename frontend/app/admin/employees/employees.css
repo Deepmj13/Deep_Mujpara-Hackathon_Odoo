@@ -1,0 +1,39 @@
+.employees-page {
+  padding: 32px;
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.employees-page h1 {
+  margin-bottom: 20px;
+}
+
+.employees-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.employees-table th,
+.employees-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.employees-table th {
+  background: #f3f4f6;
+  font-weight: bold;
+}
+
+.employees-table tr:hover {
+  background: #f9fafb;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: bold;
+}

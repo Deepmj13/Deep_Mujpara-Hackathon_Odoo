@@ -1,0 +1,113 @@
+.leave-page {
+  padding: 32px;
+  background: #f9fafb;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leave-page h1 {
+  margin-bottom: 20px;
+}
+
+.leave-form {
+  max-width: 420px;
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 32px;
+}
+
+.leave-form h2 {
+  margin-bottom: 16px;
+}
+
+.leave-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.leave-form input,
+.leave-form select,
+.leave-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.leave-form textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+.leave-form button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leave-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 10px;
+  color: #2563eb;
+  font-weight: bold;
+  text-align: center;
+}
+
+.history-title {
+  margin-bottom: 12px;
+}
+
+.leave-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.leave-table th,
+.leave-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.leave-table th {
+  background: #f3f4f6;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.pending {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.status.approved {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+.status.rejected {
+  background: #fecaca;
+  color: #7f1d1d;
+}
