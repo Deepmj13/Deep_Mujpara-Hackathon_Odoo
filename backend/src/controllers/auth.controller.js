@@ -1,9 +1,10 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User.model");
+const Employee = require("../models/employee.model.js");
 
 exports.register = async (req, res) => {
-  const { email, password, role } = res.body;
+  const { email, password, role, fullname } = res.body;
 
   const existingUser = await User.findOne([email]);
 
@@ -15,6 +16,12 @@ exports.register = async (req, res) => {
     email,
     passowrd: hashedPassword,
     role,
+  });
+
+  await Employee.create({
+    user: user._id,
+    employeeId: `EMP-${Date.now()}`,
+    fullname,
   });
 
   res.status(201).json({ message: "User registration successfully" });
