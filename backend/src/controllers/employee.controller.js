@@ -11,7 +11,7 @@ exports.getMyProfile = async (req, res) => {
   res.json(employee);
 };
 
-exports.updateMyProfile = async (res, req) => {
+exports.updateMyProfile = async (req, res) => {
   const allowedFields = ["phone", "department"];
   const updates = {};
 

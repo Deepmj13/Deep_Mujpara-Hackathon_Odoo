@@ -9,7 +9,7 @@ const {
   checkOut,
   getMyAttendance,
   getAllAttendance,
-} = require("../controllers/attendence.controller");
+} = require("../controllers/attendance.controller");
 
 // Employee
 router.post("/check-in", auth, checkIn);

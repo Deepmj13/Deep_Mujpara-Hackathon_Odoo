@@ -59,3 +59,11 @@ exports.getMyPayroll = async (req, res) => {
     finalPayable: Math.round(payroll.netSalary - deduction),
   });
 };
+
+exports.getAllPayrolls = async (req, res) => {
+  const payrolls = await Payroll.find().populate({
+    path: "employee",
+    populate: { path: "user", select: "email role" },
+  });
+  res.json(payrolls);
+};
